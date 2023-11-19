@@ -1,11 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
+      </style>
+    <title>Conheça o becoom</title>
 </head>
-<body>
+<style>
+    body{
+        font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+    }
     
+    .conteiner {
+    border-radius: 40px;
+    width: 37%;
+    height: 24dvw;
+    margin: 9rem auto;
+    /* border: solid 1px; */
+    box-shadow: 2px 2px 16px -1px #767676;
+    border-right: none;
+    display: flex;
+}
+    .conteinet-fomr{
+        
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .conteinet-text {
+    border-radius: 20% 5% 5% 20%;
+    border-color: green;
+    background: rgb(0,148,56);
+    background: linear-gradient(270deg, rgba(0,148,56,1) 0%, rgba(73,199,73,0.9023984593837535) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+flex-direction: column;
+}
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        
+    }
+    input{
+        width: 99%;
+        height: 47px;
+        background-color: rgb(175 174 173 / 21%);
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+
+    }
+    button{
+        background-color: #49bd49;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        height: 38px;
+        width: 45%;
+        color: #fff;
+        margin: 1rem auto;
+        cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(134, 198, 134);
+        }
+        .conteiner-h1{
+            width: 80%;
+            margin: 3rem auto -12px;
+            color: #fff;
+        }
+        h1{
+            font-size: 40px;
+        }
+        .conteiner-description{
+            width: 80%;
+            margin: 0 auto;
+            color: #f0fff2;
+        }
+        .home-h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+    color: #716d6d;
+}
+input:focus {
+    outline: 0;
+    box-shadow: 1px 1px 1px 1px #488144;
+}
+
+</style>
+<body>
+    <section class="conteiner">
+        <div class="conteinet-fomr">
+            <form action="">
+                <h1 class="home-h1"> Vamos lá?</h1>
+                <label for="">Email</label>
+                <input type="text"  name="" id="">
+                <label for="">Senha</label>
+                <input type="text"  name="" id="">
+                <button type="submit">Iniciar</button>
+                <h5>Ainda não tem uma conta? <a href="">clique aqui </a></h5>
+            </form>
+        </div>
+        <div class="conteinet-text">
+                <div class="conteiner-h1">
+                    <h1>Bem vindo ao <h1 style="color: #187958; margin-top: -2rem;">Becomm</h1></h1>
+                </div>
+                <div class="conteiner-description">
+                    <h7>Esse é seu primeiro passo para conhecer a melhor plataforma do mercado de gestão de contratos voltados para radio!!</h7>
+                </div>
+        </div>
+
+    </section>
 </body>
 </html>
